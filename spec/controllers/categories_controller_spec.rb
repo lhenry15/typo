@@ -4,7 +4,6 @@ describe CommentsController do
   before do
     @blog = Factory(:blog)
   end
-
   describe '#create' do
     describe "Basic comment creation" do
       before do
